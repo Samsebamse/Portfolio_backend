@@ -13,7 +13,7 @@ import java.util.UUID;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-
+@ActiveProfiles("test")
 @SpringBootTest
 public class AuthorServiceIntegrationTest extends SingletonTestDB {
 
